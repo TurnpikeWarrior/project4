@@ -1,0 +1,31 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Listing Reboots</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Title</th>
+      <th>Description</th>
+      <th>Type</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @reboots.each do |reboot| %>
+      <tr>
+        <td><%= reboot.title %></td>
+        <td><%= reboot.description %></td>
+        <td><%= reboot.type %></td>
+        <td><%= link_to 'Show', reboot %></td>
+        <td><%= link_to 'Edit', edit_reboot_path(reboot) %></td>
+        <td><%= link_to 'Destroy', reboot, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Reboot', new_reboot_path %>
