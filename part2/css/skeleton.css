@@ -272,8 +272,8 @@ select:focus {
 label,
 legend {
   display: block;
-  margin-bottom: .5rem;
-  font-weight: 600; }
+  font-weight: 600;
+  margin-bottom: -10px;}
 fieldset {
   padding: 0;
   border-width: 0; }
@@ -362,7 +362,8 @@ form {
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .u-full-width {
   width: 100%;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+margin-bottom: 25px;}
 .u-max-full-width {
   max-width: 100%;
   box-sizing: border-box; }
