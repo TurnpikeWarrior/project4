@@ -1,4 +1,4 @@
-### Project 3 MEAN Stack: NotYetStartUp
+### Project 3 - MEAN Stack: NotYetStartUp
 
 GItHub: https://github.com/jonschwadron/NotYetStartUp
 

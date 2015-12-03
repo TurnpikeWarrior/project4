@@ -1,4 +1,4 @@
-### Webmaster Toolkit - Angular + Rails App [incomplete]
+### Project 2 - Webmaster Toolkit - Angular + Rails App [incomplete]
 
 ##### Description
 ```
