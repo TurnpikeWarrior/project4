@@ -3,10 +3,20 @@
   "version": "0.0.1",
   "private": "true",
   "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "example",
+    "heroku"
+  ],
   "dependencies": {
     "express": "3.0.0alpha4",
     "nib": "^1.0.4",
     "stylus": "^0.49.1",
     "jade": "^1.7.0"
-  }
+  },
+  "engines": {
+    "node": "4.2.2"
+  },
 }
